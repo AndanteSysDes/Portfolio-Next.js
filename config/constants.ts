@@ -17,12 +17,14 @@ export type ValidSkills =
   | "Material UI"
   | "Tailwind CSS"
   | "AWS"
+  | "Heroku"
   | "Bootstrap"
   | "Google Auth"
   | "MySQL"
   | "Java"
   | "Databricks"
   | "Python"
+  | "Flask"
   | "Docker"
   | "Kubernetes"
   | "PostgreSQL"
@@ -52,7 +54,9 @@ export type ValidSkills =
   | "PyTorch"
   | "Spring Boot"
   | "Laravel"
-  | "PHP";
+  | "PHP"
+  | "Adobe Illustrator"
+  | "Adobe XD";
 
 export type ValidCategory =
   | "Full Stack"

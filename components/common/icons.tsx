@@ -33,7 +33,7 @@ import {
   Zap,
 } from "lucide-react";
 import { AiFillStar } from "react-icons/ai";
-import { BiLaugh, BiSolidUser } from "react-icons/bi";
+import { BiLaugh, BiSolidUser, BiLogoJava } from "react-icons/bi";
 import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
 import {
   HiBriefcase,
@@ -41,6 +41,8 @@ import {
   HiOutlineLink,
 } from "react-icons/hi";
 import { IoIosGitBranch } from "react-icons/io";
+import { TbBrandCSharp } from "react-icons/tb";
+import { FaStripe } from "react-icons/fa";
 import {
   SiAmazonaws,
   SiAngular,
@@ -65,6 +67,15 @@ import {
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
+  SiPython,
+  SiFlask,
+  SiOracle,
+  SiDocker,
+  SiGithub,
+  SiAdobeillustrator,
+  SiAdobexd,
+  SiFigma,
+  SiHeroku,
 } from "react-icons/si";
 
 export const Icons = {
@@ -173,4 +184,16 @@ export const Icons = {
   paper: Scroll,
   aurora: Sparkles,
   synthwave: Music,
+  csharp: TbBrandCSharp,
+  stripe: FaStripe,
+  java: BiLogoJava,
+  python: SiPython,
+  flask: SiFlask,
+  oracle: SiOracle,
+  docker: SiDocker,
+  illustrator: SiAdobeillustrator,
+  xd: SiAdobexd,
+  figma: SiFigma,
+  Github: SiGithub,
+  heroku:SiHeroku,
 };
