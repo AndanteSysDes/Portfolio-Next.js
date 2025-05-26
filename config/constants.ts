@@ -22,6 +22,7 @@ export type ValidSkills =
   | "Google Auth"
   | "MySQL"
   | "Java"
+  | "JSP"
   | "Databricks"
   | "Python"
   | "Flask"
@@ -36,6 +37,7 @@ export type ValidSkills =
   | "Django"
   | "Vue.js"
   | "Sass"
+  | "Stripe"
   | "Firebase"
   | "Azure"
   | "Google Cloud"
@@ -55,7 +57,9 @@ export type ValidSkills =
   | "Spring Boot"
   | "Laravel"
   | "PHP"
+  | "COBOL"
   | "Adobe Illustrator"
+  | "Oracle Database"
   | "Adobe XD";
 
 export type ValidCategory =
@@ -65,7 +69,13 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "SaaS Development"
+  | "System Design"
+  | "Technical Consulting"
+  | "Static Site"
+  | "Agile Project"
+  | "Waterfall Project";
 
 export type ValidExpType = "Personal Project" | "Professional";
 
