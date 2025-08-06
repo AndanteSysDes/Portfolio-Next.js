@@ -29,10 +29,8 @@ export const careerExperiences: CareerExperienceInterface[] = [
     ],
     achievements: [
       "Led the development of a commercial web system operated by a major accounting firm and used by more than 10,000 external accountants offices. Collaborated with a system integrator under a semi-delegated contract to design scalable architecture, manage a small team, and ensure high delivery quality in an Agile environment.",
-      //可能であれば売上貢献の数値
-      "Provided technical consulting and implementation support for a client seeking to launch online stores. Compared and evaluated multiple e-commerce platforms (e.g., Shopify, BASE, STORES.jp) and delivered end-to-end support from tool selection to site deployment.",
-      //可能であれば、閲覧数やスピードの向上
-      "Designed and developed three static websites from scratch with responsive design and maintained them for four years.", 
+      "Provided technical consulting and implementation support for a client seeking to launch online stores. Compared and evaluated multiple e-commerce platforms (e.g., Shopify, BASE, STORES.jp) and delivered end-to-end support from tool selection to site deployment. The store now generates about 10% of the client’s totalrevenue.",
+      "Designed and developed three static websites from scratch with responsive design and maintained them for four years. One of them increased page views over fivefold (from 58,000 to 300,000 monthlyPV) and nearly doubled unique user traffic (from 24,000 to 46,000 UU)", 
       "Built a rule-based chatbot for the LINE messaging platform, utilizing morphological analysis for natural language handling.",
     ],
     skills: ["HTML 5", "CSS 3", "Javascript", "Bootstrap","Python", "Flask","MySQL", "AWS", "Docker", "Git", "Heroku", "Stripe", "Adobe Illustrator", "Adobe XD", "Figma"],
@@ -55,7 +53,7 @@ export const careerExperiences: CareerExperienceInterface[] = [
     achievements: [
       "Oversaw the maintenance and operation of an insurance company’s core system for two years.The system, which handled approximately 900,000 active contracts, was composed of COBOL batch processes, a Java-based web application, and Oracle Database.",
       "Improved the quality of High-Level Design Documents in a system modification project for an insurance company, aimed at eliminating credit card data retention for PCI DSS compliance.",
-      "Contributed to the testing phase of a dealership payment system for a major Japanese car manufacturer by creating test cases and tracking issues.",
+      "Contributed to the testing phase of a dealership payment system across approximately 5,000 locations for a major Japanese car manufacturer by creating test cases and tracking issues.",
     ],
     skills: ["Javascript", "Java", "JSP", "COBOL", "Oracle Database"],
     companyUrl: "https://www.nri.com/en/",
