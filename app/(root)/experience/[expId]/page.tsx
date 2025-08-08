@@ -116,6 +116,36 @@ export default function Experience({ params }: ExperiencePageProps) {
       </div>
 
       <div className="mb-7 ">
+        {exp.pagesInfoArr.length == 0 ? (<></>) :(
+          <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
+            Page Info
+          </h2>
+        )}
+        {exp.pagesInfoArr.map((page, ind) => (
+          <div key={ind}>
+            <h3 className="flex items-center font-heading text-xl leading-tight lg:text-xl mt-3">
+              <Icons.star className="h-5 w-5 mr-2" /> {page.title}
+            </h3>
+            <div>
+              <p>{page.description}</p>
+              {page.imgArr.map((img, ind) => (
+                <Image
+                  src={img}
+                  key={ind}
+                  alt={img}
+                  width={720}
+                  height={405}
+                  className="my-4 rounded-md border bg-muted transition-colors"
+                  priority
+                />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+{/* 
+      <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
           Page Info
         </h2>
@@ -140,7 +170,7 @@ export default function Experience({ params }: ExperiencePageProps) {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <hr className="mt-12" />
       <div className="flex justify-center py-6 lg:py-10">
