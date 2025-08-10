@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Asuka Saito | Developer Portfolio",
+  name: "Asuka Saito | Full stack Developer Portfolio",
   authorName: "Asuka Saito",
   username: "andantesysdes",
   description:

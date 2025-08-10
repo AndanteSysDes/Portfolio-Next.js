@@ -9,20 +9,6 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 4,
-    icon: Icons.nextjs,
-  },
-  {
-    name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
     name: "express.js",
     description:
       "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
@@ -86,11 +72,11 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.bootstrap,
   },
   {
-    name: "MySQL",
+    name: "Java",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+      "Capable of building robust backend systems with object-oriented design.",
     rating: 4,
-    icon: Icons.mysql,
+    icon: Icons.java,
   },
 
   {
@@ -110,19 +96,18 @@ export const skillsUnsorted: skillsInterface[] = [
   },
 
   {
-    name: "Java",
-    description:
-      "Capable of building robust backend systems with object-oriented design.",
-    rating: 4,
-    icon: Icons.java,
-  },
-
-  {
     name: "C#",
     description:
       "Experienced in OOP and MVVM-based application development.",
     rating: 2,
     icon: Icons.csharp,
+  },
+  {
+    name: "MySQL",
+    description:
+      "Manage and organize relational databases efficiently for data-driven applications.",
+    rating: 4,
+    icon: Icons.mysql,
   },
   {
     name: "Oracle Database",
@@ -132,6 +117,21 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.oracle,
   },
 
+  
+  {
+    name: "Next.js",
+    description:
+      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+    rating: 4,
+    icon: Icons.nextjs,
+  },
+  {
+    name: "React",
+    description:
+      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+    rating: 4,
+    icon: Icons.react,
+  },
   
   {
     name: "Docker",
